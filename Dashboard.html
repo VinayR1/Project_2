@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="login.js"></script>
+<style>
+ table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h2>User Dashboard</h2>
+
+<div class="main">
+<table class="table" style="width:60%">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Email</th>
+     <th>Class</th>
+    <th>Year</th>
+    <th>City</th>
+    <th>Country</th>
+     <th>actions</th>
+   
+  </tr>
+</table>
+</div>
+<form>
+  Student Id:<br>
+  <input type="text" class="id">
+  <br>
+  Student name:<br>
+  <input type="text" class="name">
+  <br>
+ Email:<br>
+  <input type="email" class="email">
+  <br>
+  Class:<br>
+  <input type="text" class="class">
+  <br>
+Enrollment Year:<br>
+  <input type="Number" class="year" >
+  <br>
+  City:<br>
+  <input type="text" class="city">
+  <br>
+  Country:<br>
+  <input type="text" class="country" >
+  <br>
+  <br>
+    <input type="button" value="Clear" onclick="clearField()">
+  <input type="button" value="Save" onclick="addItem()">
+
+</form> 
+
+
+</body>
